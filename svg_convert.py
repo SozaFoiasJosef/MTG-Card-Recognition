@@ -42,7 +42,7 @@ def svg_to_jpg(input_dir, output_dir):
             drawing = svg2rlg(input_path)
             renderPM.drawToFile(drawing, output_path, fmt='JPG')
             
-#download_svg(icon_svg_uris)
-#svg_to_jpg(input_dir, output_dir)
+download_svg(icon_svg_uris)
+svg_to_jpg(input_dir, output_dir)
 
 
